@@ -1,0 +1,77 @@
+/* * {
+  transition: 2s linear;
+} */
+body {
+  margin: 0;
+  background-color: #11aabb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 100vh; */
+  min-height: 100vh;
+}
+.login {
+  display: none;
+}
+.container {
+  background-color: white;
+  padding: 2rem 2rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+.container h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #076875;
+}
+.container__input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
+.container__input input {
+  width: 60%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 3px solid #11aabb;
+  outline: none;
+}
+.container__input button {
+  border: none;
+  background-color: #076875;
+  color: white;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+.todos {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+.todo {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.todo div {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 0.3rem;
+  border-left: 2px solid #11aabb;
+}
